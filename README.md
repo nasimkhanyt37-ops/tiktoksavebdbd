@@ -1,8 +1,8 @@
-# 🚀 Tik Save - TikTok Video Downloader API
+# 🚀 Nasim Downloader - TikTok Video Downloader API
 
 <div align="center">
 
-![Tik Save](https://img.shields.io/badge/Tik-Save-blue?style=for-the-badge&logo=tiktok)
+![Nasim Downloader](https://img.shields.io/badge/Nasim-Downloader-blue?style=for-the-badge&logo=tiktok)
 ![Version](https://img.shields.io/badge/Version-2.0.0-green?style=for-the-badge)
 ![API Status](https://img.shields.io/badge/API-Live-brightgreen?style=for-the-badge)
 
@@ -18,12 +18,11 @@
 
 <div align="center">
 
-**🖋️ HASAN**  
-**🌟 Full Stack Developer & API Specialist**
+**🖋️ Nasim Khan** **🌟 Full Stack Developer & API Specialist**
 
-[![Facebook](https://img.shields.io/badge/Facebook-Profile-blue?style=for-the-badge&logo=facebook)](https://www.facebook.com/SWEETxHASAN)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Contact-green?style=for-the-badge&logo=whatsapp)](https://wa.me/8801744298642)
-[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:kinghasanbd1@gmail.com)
+[![Facebook](https://img.shields.io/badge/Facebook-Profile-blue?style=for-the-badge&logo=facebook)](https://www.facebook.com/share/1Bi7P1wamz/)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Contact-green?style=for-the-badge&logo=whatsapp)](https://wa.me/8801796883048)
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:nasimkhanyt37@gmail.com)
 
 </div>
 
@@ -33,10 +32,9 @@
 
 | Platform | Link | Purpose |
 |----------|------|---------|
-| **📱 Facebook** | [SWEETxHASAN](https://www.facebook.com/SWEETxHASAN) | General Support |
-| **💬 WhatsApp** | [+8801744298642](https://wa.me/8801744298642) | Quick Support |
-| **📧 Email** | [kinghasanbd1@gmail.com](mailto:kinghasanbd1@gmail.com) | Business Inquiries |
-| **💼 Professional** | [SWEETxPRO](https://www.facebook.com/SWEETxPRO) | Professional Projects |
+| **📱 Facebook** | [Nasim Khan](https://www.facebook.com/share/1Bi7P1wamz/) | General Support |
+| **💬 WhatsApp** | [+8801796883048](https://wa.me/8801796883048) | Quick Support |
+| **📧 Email** | [nasimkhanyt37@gmail.com](mailto:nasimkhanyt37@gmail.com) | Business Inquiries |
 
 </div>
 
@@ -111,7 +109,7 @@
 - 🔧 **Technical Support** - Expert assistance
 - 📞 **Direct Contact** - Personal support
 
-## 🌟 Why Choose Tik Save?
+## 🌟 Why Choose Nasim Downloader?
 
 ### 🏆 Professional Grade
 - 🎯 **Enterprise Ready** - Production quality API
@@ -136,24 +134,24 @@
 4. **Start Downloading** TikTok content
 
 ### 💼 Business Inquiries
-- 📧 **Email**: kinghasanbd1@gmail.com
-- 💬 **WhatsApp**: +8801744298642
-- 📱 **Facebook**: SWEETxHASAN
+- 📧 **Email**: nasimkhanyt37@gmail.com
+- 💬 **WhatsApp**: +8801796883048
+- 📱 **Facebook**: Nasim Khan
 
 ## 🔗 Connect With Me
 
 <div align="center">
 
-[![Facebook](https://img.shields.io/badge/Follow%20on%20Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/SWEETxHASAN)
-[![WhatsApp](https://img.shields.io/badge/Chat%20on%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/8801744298642)
-[![Email](https://img.shields.io/badge/Send%20Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kinghasanbd1@gmail.com)
+[![Facebook](https://img.shields.io/badge/Follow%20on%20Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/share/1Bi7P1wamz/)
+[![WhatsApp](https://img.shields.io/badge/Chat%20on%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/8801796883048)
+[![Email](https://img.shields.io/badge/Send%20Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nasimkhanyt37@gmail.com)
 
 </div>
 
 ## 📄 License
 
-© 2024 Tik Save API. All rights reserved.
-Developed with ❤️ by **HASAN**
+© 2025 Nasim Downloader API. All rights reserved.
+Developed with ❤️ by **Nasim Khan**
 
 ---
 
