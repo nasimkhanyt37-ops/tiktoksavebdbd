@@ -6,9 +6,12 @@ export default function ApiDemo({ onShowToast }) {
 
   const siteUrl = typeof window !== 'undefined' ? window.location.origin : '';
 
+  // Nasim: এখানে আপনার নামের কি (Key) উদাহরণ হিসেবে দেওয়া হলো
+  const demoKey = 'nasim_key_sample123xyz';
+
   const codeExamples = {
     javascript: `// Using Fetch API - GET Request
-fetch('${siteUrl}/api/download?key=YOUR_API_KEY&url=TIKTOK_URL')
+fetch('${siteUrl}/api/download?key=${demoKey}&url=TIKTOK_URL')
   .then(response => response.json())
   .then(data => console.log(data))
   .catch(error => console.error('Error:', error));
@@ -20,7 +23,7 @@ fetch('${siteUrl}/api/download', {
     'Content-Type': 'application/json',
   },
   body: JSON.stringify({
-    key: 'YOUR_API_KEY',
+    key: '${demoKey}',
     url: 'TIKTOK_URL'
   })
 })
@@ -33,7 +36,7 @@ const axios = require('axios');
 
 const apiUrl = '${siteUrl}/api/download';
 const params = {
-  key: 'YOUR_API_KEY',
+  key: '${demoKey}',
   url: 'TIKTOK_URL'
 };
 
@@ -47,7 +50,7 @@ axios.get(apiUrl, { params })
 
 // Using Axios in Node.js - POST Request
 axios.post(apiUrl, {
-  key: 'YOUR_API_KEY',
+  key: '${demoKey}',
   url: 'TIKTOK_URL'
 })
 .then(response => {
@@ -62,7 +65,7 @@ import requests
 
 api_url = '${siteUrl}/api/download'
 params = {
-    'key': 'YOUR_API_KEY',
+    'key': '${demoKey}',
     'url': 'TIKTOK_URL'
 }
 
@@ -72,7 +75,7 @@ print(data)
 
 # Using requests in Python - POST Request
 data = {
-    'key': 'YOUR_API_KEY',
+    'key': '${demoKey}',
     'url': 'TIKTOK_URL'
 }
 
@@ -84,7 +87,7 @@ print(result)`,
 // Using cURL in PHP - GET Request
 $api_url = '${siteUrl}/api/download';
 $params = [
-    'key' => 'YOUR_API_KEY',
+    'key' => '${demoKey}',
     'url' => 'TIKTOK_URL'
 ];
 
@@ -100,7 +103,7 @@ print_r($data);
 
 // Using cURL in PHP - POST Request
 $post_data = [
-    'key' => 'YOUR_API_KEY',
+    'key' => '${demoKey}',
     'url' => 'TIKTOK_URL'
 ];
 
@@ -126,7 +129,8 @@ print_r($data);
       description: "This is an example TikTok video description",
       duration: 30,
       thumbnail: "https://example.com/thumbnail.jpg",
-      filename: "example_tiktok_video_30s",
+      // Nasim: ফাইলের নামেও আপনার নাম যোগ করা হয়েছে
+      filename: "Nasim_Downloader_video_30s",
       author: {
         id: "user123",
         name: "Example User",
@@ -182,7 +186,7 @@ print_r($data);
     } else if (type === 'response') {
       textToCopy = JSON.stringify(sampleResponse, null, 2);
     } else if (type === 'url') {
-      textToCopy = `${siteUrl}/api/download?key=YOUR_API_KEY&url=TIKTOK_URL`;
+      textToCopy = `${siteUrl}/api/download?key=${demoKey}&url=TIKTOK_URL`;
     }
 
     navigator.clipboard.writeText(textToCopy);
@@ -212,7 +216,7 @@ print_r($data);
         </div>
         <div className="bg-gray-100 border-1 border-gray-900 p-4">
           <code className="text-sm break-all">
-            {siteUrl}/api/download?key=YOUR_API_KEY&url=TIKTOK_URL
+            {siteUrl}/api/download?key={demoKey}&url=TIKTOK_URL
           </code>
         </div>
         <p className="text-sm text-gray-600 mt-2">
