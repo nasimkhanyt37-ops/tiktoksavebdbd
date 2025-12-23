@@ -13,7 +13,8 @@ export default function GenerateKeyModal({ isOpen, onClose, onShowToast, isUnlim
     for (let i = 0; i < 20; i++) {
       randomPart += chars.charAt(Math.floor(Math.random() * chars.length));
     }
-    return `hasan_key_${randomPart}`;
+    // Nasim: নাম পরিবর্তন করা হয়েছে এখানে
+    return `nasim_key_${randomPart}`;
   };
 
   const handleGenerate = async () => {
