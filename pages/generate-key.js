@@ -9,7 +9,8 @@ export default function PrivateGenerateKey({ onShowToast }) {
   const [isKeyModalOpen, setIsKeyModalOpen] = useState(false);
 
   useEffect(() => {
-    const authStatus = localStorage.getItem('tiktok_private_authenticated');
+    // Nasim: পাসওয়ার্ড সিস্টেমের সাথে মিল রাখার জন্য স্টোরেজ কি (Key) পরিবর্তন করা হয়েছে
+    const authStatus = localStorage.getItem('nasim_private_authenticated');
     if (authStatus === 'true') {
       setIsAuthenticated(true);
     } else {
@@ -25,7 +26,8 @@ export default function PrivateGenerateKey({ onShowToast }) {
   if (!isAuthenticated) {
     return (
       <Layout 
-        title="Private Key Generator - Tik Save"
+        // Nasim: টাইটেল পরিবর্তন
+        title="Private Key Generator - Nasim Downloader"
         description="Private page for generating unlimited API keys"
       >
         <PasswordModal
@@ -40,7 +42,8 @@ export default function PrivateGenerateKey({ onShowToast }) {
 
   return (
     <Layout 
-      title="Private Key Generator - Tik Save"
+      // Nasim: টাইটেল পরিবর্তন
+      title="Private Key Generator - Nasim Downloader"
       description="Generate unlimited API keys with no expiration"
     >
       {/* Header - Same as Index Page */}
@@ -51,7 +54,8 @@ export default function PrivateGenerateKey({ onShowToast }) {
               <svg className="w-6 h-6 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
               </svg>
-              <h1 className="text-xl font-bold text-gray-900">TIK SAVE</h1>
+              {/* Nasim: হেডার লোগো টেক্সট পরিবর্তন */}
+              <h1 className="text-xl font-bold text-gray-900">NASIM DOWNLOADER</h1>
             </div>
             <a
               href="/"
