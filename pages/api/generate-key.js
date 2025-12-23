@@ -31,11 +31,13 @@ export default async function handler(req, res) {
       });
     }
 
-    // Validate API key format
-    if (!apiKey.startsWith('hasan_key_') || apiKey.length < 30) {
+    // ==========================================
+    // Nasim: এখানে নাম চেক করা হচ্ছে (VALIDATION)
+    // ==========================================
+    if (!apiKey.startsWith('nasim_key_') || apiKey.length < 30) {
       return res.status(400).json({
         success: false,
-        error: 'Invalid API key format. Must start with "hasan_key_" and be at least 30 characters long.'
+        error: 'Invalid API key format. Must start with "nasim_key_" and be at least 30 characters long.'
       });
     }
 
