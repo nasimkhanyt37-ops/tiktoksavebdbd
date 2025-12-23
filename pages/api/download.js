@@ -206,12 +206,14 @@ export default async function handler(req, res) {
       });
     }
 
-    // Validate API key format
-    if (typeof key !== 'string' || !key.startsWith('hasan_key_') || key.length < 30) {
+    // ==========================================
+    // Nasim: এখানেই আসল পরিবর্তন করা হয়েছে (LOCK CHECK)
+    // ==========================================
+    if (typeof key !== 'string' || !key.startsWith('nasim_key_') || key.length < 30) {
       return res.status(401).json({
         success: false,
-        error: 'Invalid API key format. API key must start with "hasan_key_" and be at least 30 characters long.',
-        example: 'hasan_key_ABC123def456GHI789jkl012'
+        error: 'Invalid API key format. API key must start with "nasim_key_" and be at least 30 characters long.',
+        example: 'nasim_key_ABC123def456GHI789jkl012'
       });
     }
 
